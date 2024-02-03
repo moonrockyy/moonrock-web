@@ -19,6 +19,7 @@
   outline: none;
   border: none;
   text-decoration: none;
+  overflow-x:hidden;
 }
 
 @mixin grid($val) {
@@ -770,6 +771,11 @@ section {
 }
 
 @media (max-width: 991px) {
+  #search-btn img{
+    margin-top: 7px;
+  }
+
+  
   html {
     font-size: 55%;
   }
@@ -837,5 +843,9 @@ section {
 
   .about .row .content h3 {
     font-size: 2.5rem;
+  }
+
+ #search-btn img{
+    margin-top: 5px;
   }
 }
