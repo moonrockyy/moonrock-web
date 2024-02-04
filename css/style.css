@@ -369,6 +369,7 @@ section {
 }
 .about .row .video {
   flex: 1 1 41rem;
+  width: 100%;
 }
 .about .row .video video {
   width: 100%;
@@ -712,6 +713,9 @@ section {
   }
 }
 @media (max-width: 991px) {
+  .header .icons img {
+    margin-top: 7px;
+  }
   html {
     font-size: 55%;
   }
@@ -760,6 +764,9 @@ section {
   }
 }
 @media (max-width: 450px) {
+  .header .icons img {
+    margin-top: 5px;
+  }
   html {
     font-size: 50%;
   }
